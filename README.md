@@ -49,15 +49,18 @@ These terms encourage the agent to stay closer to the center and reduce sideways
 
 ## 📊 Results
 
+
 All six models were evaluated over 100 episodes with reset seeds 0–99. Actions were deterministic during evaluation.
 
-| Model               | Average Reward | Reward Std. Dev. | Reward >= 200 | Candidate Successes 
-| Baseline            | 176.19         | 74.47            | 47/100        | 22/100 
-| Time Penalty        | 177.69         | 86.64            | 59/100        | 26/100 
-| Hover Bonus         | 21.32          | 88.79            | 2/100         | 16/100 
-| Fixed               | 138.32         | 108.01           | 47/100        | 22/100 
-| Position Penalty    | 178.46         | 94.40            | 57/100        | 41/100 
-| Position + Velocity | **271.81**     | **27.64**        | **98/100**    | **90/100** 
+| Model | Average Reward | Reward Std. Dev. | Reward >= 200 | Candidate Successes |
+|---|---:|---:|---:|---:|
+| Baseline | 176.19 | 74.47 | 47/100 | 22/100 |
+| Time Penalty | 177.69 | 86.64 | 59/100 | 26/100 |
+| Hover Bonus | 21.32 | 88.79 | 2/100 | 16/100 |
+| Fixed | 138.32 | 108.01 | 47/100 | 22/100 |
+| Position Penalty | 178.46 | 94.40 | 57/100 | 41/100 |
+| Position + Velocity | **271.81** | **27.64** | **98/100** | **90/100** |
+
 
 ### Result Visualizations
 
